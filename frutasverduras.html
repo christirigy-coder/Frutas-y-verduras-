@@ -1,0 +1,351 @@
+<!doctype html>
+
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Frutas y Verduras de Yucatán</title>
+  <meta name="description" content="Ficha interactiva sobre frutas y verduras de Yucatán: nombre científico, usos, cultura, explicación biológica y bioquímica, crecimiento y temporada." />
+  <style>
+    :root{
+      --bg:#fffaf6;
+      --card:#fffefc;
+      --muted:#6b6b6b;
+      --accent-1:#ffdca8;
+      --accent-2:#d9f7e9;
+      --accent-3:#f3e6ff;
+      --accent-4:#cfe8ff;
+      --shadow: 0 6px 18px rgba(24,24,24,0.06);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#fff);color:#13293d;line-height:1.45}
+    header{padding:28px 20px 10px;display:flex;align-items:center;gap:18px;flex-direction:column;}
+    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent-1),var(--accent-3));display:flex;align-items:center;justify-content:center;font-weight:700;color:#3b2a1a;box-shadow:var(--shadow);margin-bottom:12px;}
+    h1{font-size:20px;margin:0}
+    p.lead{margin:6px 0 0;color:var(--muted);font-size:14px}.container{max-width:1100px;margin:18px auto;padding:0 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.card{background:var(--card);border-radius:14px;padding:14px;box-shadow:var(--shadow);border:1px solid rgba(0,0,0,0.03)}
+.card h3{margin:0 0 6px;font-size:16px}
+.scientific{font-style:italic;color:#5a5a5a;margin-bottom:8px}
+.meta{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.pill{background:rgba(0,0,0,0.03);padding:6px 8px;border-radius:8px;font-size:12px}
+.image-placeholder{width:100%;height:160px;border-radius:10px;background:linear-gradient(90deg, rgba(0,0,0,0.02), rgba(0,0,0,0.01));display:flex;align-items:center;justify-content:center;color:var(--muted);margin-bottom:10px}
+
+details{background:transparent;border-radius:8px;padding:8px}
+summary{cursor:pointer;outline:none;font-weight:600}
+.detail-grid{display:grid;grid-template-columns:1fr;gap:8px;margin-top:10px}
+.small{font-size:13px;color:var(--muted)}
+
+footer{margin:28px 0;padding:18px;border-radius:12px;background:linear-gradient(90deg,var(--accent-2),var(--accent-4));box-shadow:var(--shadow);}
+footer p{margin:8px 0;color:#052b2a}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="image-placeholder">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/UADY_logo.svg/1600px-UADY_logo.svg.png"
+       alt="Logotipo de la Universidad Autónoma de Yucatán"
+       style="width:100%; height:auto; object-fit:contain; border-radius:10px;">
+</div>
+    <h1>Frutas y Verduras de Yucatán — Fichas Interactivas</h1>
+    <p class="lead">Explora, aprende y comparte datos biológicos, bioquímicos y culturales. Toca un nombre para abrir la ficha.</p>
+  </header>  <main class="container">
+    <section class="grid" id="cards"><!-- Mamey -->
+  <article class="card">
+    <img src="https://www.gob.mx/cms/uploads/article/main_image/92147/post_mamey.jpg" alt="Mamey fresco" style="width:100%; height:auto; object-fit:cover; border-radius:10px;">
+    <h3>Mamey</h3>
+    <div class="scientific">Pouteria sapota</div>
+    <div class="meta"><div class="pill">Fruta</div><div class="pill">Pulpa anaranjada</div><div class="pill">Temporada: verano-otoño</div></div>
+    <details><summary>Ver ficha</summary>
+      <div class="detail-grid">
+        <div><strong>Usos:</strong> Consumo en fresco, batidos, postres; madera y medicina tradicional.</div>
+        <div><strong>Relación cultural:</strong> Popular en la dieta regional; ingrediente de platos tradicionales.</div>
+        <div><strong>Biología y bioquímica:</strong> Rica en carotenoides que le dan color; azúcares solubles determinan dulzor; antioxidantes naturales.</div>
+        <div><strong>Crecimiento y temporada:</strong> Árbol perennifolio, frutos en meses cálidos; requiere suelos bien drenados y clima tropical/subtropical.</div>
+      </div>
+    </details>
+  </article>
+
+  <!-- Zapote negro -->
+  <article class="card">
+    <img src="https://entresemillas.com/1396-medium_default/zapote-negro-planta.jpg" alt="Zapote negro partido mostrando su pulpa oscura" style="width:100%; height:auto; object-fit:cover; border-radius:10px;">
+    <h3>Zapote negro</h3>
+    <div class="scientific">Diospyros digyna</div>
+    <div class="meta"><div class="pill">Fruta</div><div class="pill">Pulpa oscura</div></div>
+    <details><summary>Ver ficha</summary>
+      <div class="detail-grid">
+        <div><strong>Usos:</strong> Consumo fresco, mermeladas, helados; madera y artesanía.</div>
+        <div><strong>Relación cultural:</strong> Presente en huertos familiares y ferias locales.</div>
+        <div><strong>Biología y bioquímica:</strong> Pigmentos oscuros por compuestos fenólicos y melaninas; alto contenido de azúcares maduros; fibra dietética.</div>
+        <div><strong>Crecimiento y temporada:</strong> Árbol tropical, fructificación estacional según lluvias y clima.</div>
+      </div>
+    </details>
+  </article>
+
+  <!-- Ramón -->
+  <article class="card">
+    <div class="image-placeholder">
+  <img src="https://www.mexicodesconocido.com.mx/wp-content/uploads/2020/01/fruto-arbol_Ramon.jpg" alt="Fruto del árbol Ramón maduro" style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
+</div>
+    <h3>Ramón</h3>
+    <div class="scientific">Brosimum alicastrum</div>
+    <div class="meta"><div class="pill">Semilla comestible</div><div class="pill">Alimento tradicional</div></div>
+    <details><summary>Ver ficha</summary>
+      <div class="detail-grid">
+        <div><strong>Usos:</strong> Harina, complemento proteico, alimento animal, reforestación.</div>
+        <div><strong>Relación cultural:</strong> Base alimentaria prehispánica y tradicional.</div>
+        <div><strong>Biología y bioquímica:</strong> Semillas ricas en carbohidratos y proteínas; almidón resistente; compuestos fenólicos.</div>
+        <div><strong>Crecimiento y temporada:</strong> Árbol robusto, tolerante a sequía; recolección de semillas durante fructificación.</div>
+      </div>
+    </details>
+  </article>
+
+  <!-- Ciricote -->
+  <article class="card">
+    <div class="image-placeholder">
+  <img src="https://tuuxmahahual.net/wp-content/uploads/2024/06/Tuux_Mahahual_Ciricote_Gallery_01-768x512.jpg"
+       alt="Ciricote, fruto y follaje de Cordia dodecandra"
+       style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
+</div>
+    <h3>Ciricote</h3>
+    <div class="scientific">Cordia dodecandra</div>
+    <div class="meta"><div class="pill">Fruta y madera</div></div>
+    <details><summary>Ver ficha</summary>
+      <div class="detail-grid">
+        <div><strong>Usos:</strong> Fruta comestible; madera para carpintería y artesanía.</div>
+        <div><strong>Relación cultural:</strong> Utilizado en utensilios tradicionales; planta emblemática local.</div>
+        <div><strong>Biología y bioquímica:</strong> Fruta rica en azúcares; madera densa y resistente; antioxidantes presentes.</div>
+        <div><strong>Crecimiento y temporada:</strong> Árbol tropical; frutos de temporada según clima; requiere suelos bien drenados.</div>
+      </div>
+    </details>
+  </article>
+
+  <!-- Pitahaya -->
+  <article class="card">
+    <div class="image-placeholder">
+  <img src="https://www.frutamare.com/wp-content/uploads/para-que-es-buena-la-pitahaya.jpeg.webp"
+       alt="Pitahaya madura cortada mostrando su interior"
+       style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
+</div>
+    <h3>Pitahaya</h3>
+    <div class="scientific">Hylocereus undatus</div>
+    <div class="meta"><div class="pill">Fruta</div><div class="pill">Sabor dulce</div></div>
+    <details><summary>Ver ficha</summary>
+      <div class="detail-grid">
+        <div><strong>Usos:</strong> Consumo fresco, jugos y postres.</div>
+        <div><strong>Relación cultural:</strong> Cultivo reciente en huertos y ferias.</div>
+        <div><strong>Biología y bioquímica:</strong> Pulpa rica en antioxidantes y fibra; pigmentos rojos y blancos.</div>
+        <div><strong>Crecimiento y temporada:</strong> Planta epífita de clima tropical; frutos maduran en verano-otoño.</div>
+      </div>
+    </details>
+  </article>
+
+  <!-- Nance -->
+  <article class="card">
+    <div class="image-placeholder">
+  <img src="https://revistalacampina.mx/wp-content/uploads/2020/12/nanche.jpg"
+       alt="Fruto amarillo de nance maduro"
+       style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
+</div>
+    <h3>Nance</h3>
+    <div class="scientific">Byrsonima crassifolia</div>
+    <div class="meta"><div class="pill">Fruta</div><div class="pill">Pequeña y amarilla</div></div>
+    <details><summary>Ver ficha</summary>
+      <div class="detail-grid">
+        <div><strong>Usos:</strong> Dulces, bebidas fermentadas, consumo fresco.</div>
+        <div><strong>Relación cultural:</strong> Muy popular en postres y festividades locales.</div>
+        <div><strong>Biología y bioquímica:</strong> Contiene vitamina C y antioxidantes; sabor ácido y dulce.</div>
+        <div><strong>Crecimiento y temporada:</strong> Árbol de zonas secas y suelos arenosos; frutos en verano.</div>
+      </div>
+    </details>
+  </article>
+
+  <!-- Chile mash -->
+  <article class="card">
+    <div class="image-placeholder">
+  <img src="https://rincondelchili.wordpress.com/wp-content/uploads/2012/09/amashito2.jpg?w=300"
+       alt="Chiles mash rojos frescos"
+       style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
+</div>
+    <h3>Chile mash</h3>
+    <div class="scientific">Capsicum annuum</div>
+    <div class="meta"><div class="pill">Verdura</div><div class="pill">Picante</div></div>
+    <details><summary>Ver ficha</summary>
+      <div class="detail-grid">
+        <div><strong>Usos:</strong> Salsas, adobos, condimentos.</div>
+        <div><strong>Relación cultural:</strong> Base en la cocina yucateca, parte de recetas tradicionales.</div>
+        <div><strong>Biología y bioquímica:</strong> Contiene capsaicina (picante), vitaminas A y C; antioxidantes.</div>
+        <div><strong>Crecimiento y temporada:</strong> Planta anual; frutos maduran en verano.</div>
+      </div>
+    </details>
+  </article>
+
+  <!-- Guayaba -->
+  <article class="card">
+    <div class="image-placeholder">
+  <img src="https://www.gob.mx/cms/uploads/article/main_image/54950/guayaba1.jpg"
+       alt="Guayaba madura partida mostrando su pulpa"
+       style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
+</div>
+    <h3>Guayaba</h3>
+    <div class="scientific">Psidium guajava</div>
+    <div class="meta"><div class="pill">Fruta</div><div class="pill">Dulce y aromática</div></div>
+    <details><summary>Ver ficha</summary>
+      <div class="detail-grid">
+        <div><strong>Usos:</strong> Consumo fresco, jugos, mermeladas, dulces.</div>
+        <div><strong>Relación cultural:</strong> Fruta emblemática en cocina yucateca; presente en mercados y huertos caseros.</div>
+        <div><strong>Biología y bioquímica:</strong> Rica en vitamina C, fibra y compuestos fenólicos; aroma característico por terpenos.</div>
+        <div><strong>Crecimiento y temporada:</strong> Árbol pequeño, frutos durante primavera y verano.</div>
+      </div>
+    </details>
+  </article>
+
+  <!-- Chaya -->
+  <article class="card">
+    <div class="image-placeholder">
+  <img src="https://www.gob.mx/cms/uploads/article/main_image/18160/chaya.jpg"
+       alt="Hojas verdes de chaya frescas"
+       style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
+</div>
+    <h3>Chaya</h3>
+    <div class="scientific">Cnidoscolus aconitifolius</div>
+    <div class="meta"><div class="pill">Verdura</div><div class="pill">Hoja verde</div></div>
+    <details><summary>Ver ficha</summary>
+      <div class="detail-grid">
+        <div><strong>Usos:</strong> Cocida como verdura; infusiones; medicina tradicional.</div>
+        <div><strong>Relación cultural:</strong> Planta esencial en huertos familiares y alimentación tradicional.</div>
+        <div><strong>Biología y bioquímica:</strong> Rica en proteínas, vitaminas y antioxidantes; compuestos tóxicos eliminados al cocer.</div>
+        <div><strong>Crecimiento y temporada:</strong> Arbusto perenne, muy resistente; hojas durante todo el año.</div>
+      </div>
+    </details>
+  </article>
+
+  <!-- Tomate -->
+<article class="card">
+  <div class="image-placeholder">
+  <img src="https://www.gob.mx/cms/uploads/article/main_image/27788/jitomate.jpg"
+       alt="Tomates maduros rojos"
+       style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
+</div>
+  <h3>Tomate</h3>
+  <div class="scientific">Solanum lycopersicum</div>
+  <div class="meta"><div class="pill">Fruta (culinaria verdura)</div><div class="pill">Sabor dulce-acido</div></div>
+  <details><summary>Ver ficha</summary>
+    <div class="detail-grid">
+      <div><strong>Usos:</strong> Salsas, ensaladas, jugos, cocina variada.</div>
+      <div><strong>Relación cultural:</strong> Base de la gastronomía yucateca y mundial.</div>
+      <div><strong>Biología y bioquímica:</strong> Rico en licopeno (pigmento rojo), vitamina C y antioxidantes; frutos jugosos y carnosos.</div>
+      <div><strong>Crecimiento y temporada:</strong> Planta anual; fructificación en primavera-verano; requiere clima cálido y suelo bien drenado.</div>
+    </div>
+  </details>
+</article>
+
+<!-- Camote -->
+<article class="card">
+  <div class="image-placeholder">
+  <img src="https://restaurantepiscomar.com/wp-content/uploads/2014/10/camote-boniato.jpg"
+       alt="Tubérculos de camote o boniato" 
+       style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
+</div>
+  <h3>Camote</h3>
+  <div class="scientific">Ipomoea batatas</div>
+  <div class="meta"><div class="pill">Tubérculo</div><div class="pill">Dulce</div></div>
+  <details><summary>Ver ficha</summary>
+    <div class="detail-grid">
+      <div><strong>Usos:</strong> Cocido, horneado, purés, postres y alimentos procesados.</div>
+      <div><strong>Relación cultural:</strong> Tradicional en la dieta yucateca; base de platillos típicos y mercados locales.</div>
+      <div><strong>Biología y bioquímica:</strong> Rico en carbohidratos complejos, vitamina A (beta-caroteno) y antioxidantes; sabor dulce natural.</div>
+      <div><strong>Crecimiento y temporada:</strong> Planta perenne cultivada como anual; requiere clima cálido; cosecha en verano-otoño.</div>
+    </div>
+  </details>
+</article>
+
+<!-- Maíz -->
+<article class="card">
+  <div class="image-placeholder">
+  <img src="https://dfinnova.com/wp-content/themes/yootheme/cache/c3/maiz_opt-c38f2941.webp"
+       alt="Mazorca de maíz madura"
+       style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
+</div>
+  <h3>Maíz</h3>
+  <div class="scientific">Zea mays</div>
+  <div class="meta"><div class="pill">Cereal</div><div class="pill">Grano</div></div>
+  <details><summary>Ver ficha</summary>
+    <div class="detail-grid">
+      <div><strong>Usos:</strong> Tortillas, atoles, tamales, harinas, alimentos y forraje.</div>
+      <div><strong>Relación cultural:</strong> Base de la dieta y cultura maya; presente en festividades y rituales.</div>
+      <div><strong>Biología y bioquímica:</strong> Rico en almidón, proteínas y antioxidantes; granos de color variable por carotenoides y antocianinas.</div>
+      <div><strong>Crecimiento y temporada:</strong> Planta anual; requiere clima cálido y suelos fértiles; cosecha en verano-otoño.</div>
+    </div>
+  </details>
+</article>
+
+<!-- Chayote -->
+<article class="card">
+  <div class="image-placeholder">
+  <img src="https://www.gob.mx/cms/uploads/article/main_image/25757/chayote.jpg"
+       alt="Chayote fresco con piel verde"
+       style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
+</div>
+  <h3>Chayote</h3>
+  <div class="scientific">Sechium edule</div>
+  <div class="meta"><div class="pill">Verdura</div><div class="pill">Fruto comestible</div></div>
+  <details><summary>Ver ficha</summary>
+    <div class="detail-grid">
+      <div><strong>Usos:</strong> Cocido, en ensaladas, sopas y guisos.</div>
+      <div><strong>Relación cultural:</strong> Común en huertos y cocina tradicional yucateca.</div>
+      <div><strong>Biología y bioquímica:</strong> Rico en fibra, vitamina C y antioxidantes; fruto de textura crujiente y sabor suave.</div>
+      <div><strong>Crecimiento y temporada:</strong> Trepadora perenne; frutos durante verano y otoño.</div>
+    </div>
+  </details>
+</article>
+
+<!-- Calabaza local -->
+<article class="card">
+  <img src="https://static.wixstatic.com/media/b5415a_2dd5260f6c194f8d891f5b9e7ebed873~mv2.png/v1/fill/w_560,h_538,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/calabaza-kuumArtboard%203_4x.png" alt="Calabaza K'uum" style="width:100%; height:auto; object-fit:cover; border-radius:10px;">
+  <h3>Calabaza local</h3>
+  <div class="scientific">Cucurbita argyrosperma</div>
+  <div class="meta"><div class="pill">Verdura</div><div class="pill">Fruto comestible</div></div>
+  <details><summary>Ver ficha</summary>
+    <div class="detail-grid">
+      <div><strong>Usos:</strong> Guisos, sopas, dulces, tortillas de calabaza.</div>
+      <div><strong>Relación cultural:</strong> Ingrediente tradicional en la gastronomía yucateca; presente en festividades y mercados locales.</div>
+      <div><strong>Biología y bioquímica:</strong> Rico en carotenoides, fibra y vitamina A; fruto de pulpa firme y sabor suave; semillas comestibles y nutritivas.</div>
+      <div><strong>Crecimiento y temporada:</strong> Planta trepadora anual; requiere clima cálido y suelos bien drenados; cosecha principal en verano y otoño.</div>
+    </div>
+  </details>
+</article>
+
+<!-- Pepino blanco -->
+<article class="card">
+  <div class="image-placeholder">
+  <img src="https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00000000004594L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+       alt="Pepino blanco fresco"
+       style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
+</div>
+  <h3>Pepino blanco</h3>
+  <div class="scientific">Cucumis sativus var. albus</div>
+  <div class="meta"><div class="pill">Verdura</div><div class="pill">Fruto comestible</div></div>
+  <details><summary>Ver ficha</summary>
+    <div class="detail-grid">
+      <div><strong>Usos:</strong> Consumo fresco en ensaladas, jugos y acompañamientos.</div>
+      <div><strong>Relación cultural:</strong> Tradicional en huertos familiares y mercados locales.</div>
+      <div><strong>Biología y bioquímica:</strong> Alto contenido de agua y minerales; sabor fresco y textura crujiente.</div>
+      <div><strong>Crecimiento y temporada:</strong> Planta anual; frutos durante primavera y verano; requiere clima cálido y suelos bien drenados.</div>
+    </div>
+  </details>
+</article>
+
+    </section>
+
+    <footer>
+      <p><strong>Objetivo:</strong> Nuestro objetivo como estudiantes y futuros profesionales en Biología es divulgar, comunicar y compartir información valiosa sobre la naturaleza, enriqueciendo tanto a la sociedad como a nuestro desarrollo profesional. Las frutas y verduras de Yucatán son fundamentales en nuestra dieta, cultura y biodiversidad, y nos complace compartir estos conocimientos, esperando que sean de su agrado y provecho</p> 
+<h3>Campus de Ciencias Biológicas y Agropecuarias, UADY</h3>
+    </footer>
+  </main>
+</body>
+</html>
+
+
